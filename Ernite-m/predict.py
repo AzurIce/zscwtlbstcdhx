@@ -1,6 +1,7 @@
 from model import NetWork
 import os
 import paddle
+from data import test_dataloader
 
 # 声明模型
 model = NetWork("image")
